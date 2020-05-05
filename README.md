@@ -1,68 +1,54 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tomás Pérez-Zafón Resume Portfolio made with React JS
 
-## Available Scripts
+I transformed a plain HTML website into a [React JS](https://reactjs.org/) website, which is also using the [`react-router-dom`](https://www.npmjs.com/package/react-router-dom) npm package.
 
-In the project directory, you can run:
+This project was bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app) at the root folder of an empty repository. 
 
-### `yarn start`
+The original HTML website was build using Semantic UI as a styling framework, so I had to import the CDN into the React's `/public/index.html` file.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Then, I installed the package `react-router-dom`.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I began to create the file structure and the react components. Since the original website had only 3 pages (About, Portfolio and Contact), I decided to create a class component for each one of them inside the `container` directory. This class component will allow me later to pass props down to other components.
 
-### `yarn test`
+Since the pages had some common used parts, like the navigation bar, header, etc, I decided to make them a shared component, so they can be reused in several pages.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The React `src` directory has the following structure:
 
-### `yarn build`
+![Screenshot Source Directory](./public/assets/img/directory-structure.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As you can see, under `/components/Shared`, the `Navbar.jsx`, the `Header.jsx`, the `Sidebar.jsx` and the `Footer.jsx` are separate components and they are reused in different pages.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Also, I decided to create the component `AllProjects.jsx` that will contain all my projects. This is done via the `Project.jsx` component and populated with different data for the different projects.
+- - -
+## Website Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+About Page
 
-### `yarn eject`
+![Screenshot About Page](./public/assets/img/about-me.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- - -
+Portfolio Page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screenshot Portfolio Page](./public/assets/img/portfolio.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- - -
+Contact Page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Screenshot Contact Page](./public/assets/img/contact.png)
 
-## Learn More
+- - -
+## To Learn More About React JS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [React documentation](https://reactjs.org/).
 
-### Code Splitting
+* [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Analyzing the Bundle Size
+* [Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* [Deployment](https://facebook.github.io/create-react-app/docs/deployment)
