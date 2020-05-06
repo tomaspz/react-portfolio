@@ -30,7 +30,8 @@ I could have created an array of objects for each of my projects and render them
 - - -
 ## GitHub Repo
 
-[GitHub - Tomás Pérez Zafón React Resume Portfolio](https://github.com/tomaspz/react-portfolio)
+[GitHub - Tomás Pérez Zafón React Resume Portfolio (only React)](https://github.com/tomaspz/react-portfolio)
+[GitHub - Tomás Pérez Zafón React Resume Portfolio (React + Express )](https://github.com/tomaspz/heroku-portfolio)
 
 - - -
 ## Website Screenshots
