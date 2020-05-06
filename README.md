@@ -21,6 +21,16 @@ As you can see, under `/components/Shared`, the `Navbar.jsx`, the `Header.jsx`, 
 Also, I decided to create the component `AllProjects.jsx` that will contain all my projects. This is done via the `Project.jsx` component and populated with different data for the different projects.
 
 I could have created an array of objects for each of my projects and render them by using the `.map` high-order method, but I thought that in this case, it was more intuitive to render them separately passing the data as props.
+- - - 
+
+## Deployed React Website in Heroku
+
+[Heroku - Tomás Pérez Zafón React Resume Portfolio](https://tomas-perez-zafon.herokuapp.com/)
+
+- - -
+## GitHub Repo
+
+[GitHub - Tomás Pérez Zafón React Resume Portfolio](https://github.com/tomaspz/react-portfolio)
 
 - - -
 ## Website Screenshots
