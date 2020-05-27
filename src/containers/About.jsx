@@ -36,6 +36,17 @@ class About extends Component {
                         
                         <div className="columns medium-5">
                             <h2 className="work-feature-block-header">Education</h2>
+                            <h5><i className="fa fa-university"></i><strong> 2020 - Georgia Institute of Technology - Full Stack Web Developer</strong></h5>
+                            <ul>
+                                <li>HTML, CSS, Javascript, jQuery, Bootstrap, Semantic UI</li>
+                                <li>Node, Express, Bcrypt, Passport</li>
+                                <li>MySQL, Sequelize, MongoDB, Mongoose</li>
+                                <li>Handlebars, React, Angular</li>
+                                <li>MVC, CRUD and RESTful APIs</li>
+                                <li>Git, GitHub, GitLab</li>
+                                <hr />
+                            </ul>
+                            <hr />
                             <h5><i className="fa fa-university"></i><strong> 2018 - edx.org - W3C Certiﬁed Professional Front-End Web Developer</strong></h5>
                             <ul>
                                 <li>CSS Basics</li>
